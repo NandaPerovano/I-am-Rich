@@ -21,7 +21,7 @@ class VCScreen: UIView {
     lazy var logoAppImageView: UIImageView = {
         let image = UIImageView()
         image.translatesAutoresizingMaskIntoConstraints = false
-        image.image = UIImage(named: "patrick-tomasso-216284")
+        image.image = UIImage(named: "2")
         image.clipsToBounds = true
         image.layer.cornerRadius = 12
         return image
