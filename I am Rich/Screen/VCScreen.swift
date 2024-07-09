@@ -21,7 +21,7 @@ class VCScreen: UIView {
     lazy var logoAppImageView: UIImageView = {
         let image = UIImageView()
         image.translatesAutoresizingMaskIntoConstraints = false
-        image.image = UIImage(named: "2")
+        image.image = UIImage(named: "diamond")
         image.clipsToBounds = true
         image.layer.cornerRadius = 12
         return image
@@ -39,7 +39,7 @@ class VCScreen: UIView {
     }
     
     private func colorScreen() {
-        self.backgroundColor = UIColor(hex: "#1981CD")
+        self.backgroundColor = UIColor(hex: "#24495E")
         
     }
     
